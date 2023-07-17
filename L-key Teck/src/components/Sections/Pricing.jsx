@@ -34,9 +34,7 @@ export default function Pricing() {
                   { name: "Websites", cheked: true },
                   { name: "Blogging Sites", cheked: true },
                 ]}
-                action={() =>
-                  window.open(`https://web.whatsapp.com/send?phone=0244348301`)
-                }
+                action={() => window.open(` https://wa.me/0244348301`)}
               />
             </TableBox>
             <TableBox>
@@ -52,9 +50,7 @@ export default function Pricing() {
                   { name: "Computer Repairs", cheked: true },
                   { name: "Troubleshooting", cheked: true },
                 ]}
-                action={() =>
-                  window.open(`https://web.whatsapp.com/send?phone=0244348301`)
-                }
+                action={() => window.open(` https://wa.me/0244348301`)}
               />
             </TableBox>
             <TableBox>
@@ -70,9 +66,7 @@ export default function Pricing() {
                   { name: "Hardware Upgrades", cheked: true },
                   { name: "Laptop Customization", cheked: true },
                 ]}
-                action={() =>
-                  window.open(`https://web.whatsapp.com/send?phone=0244348301`)
-                }
+                action={() => window.open(` https://wa.me/0244348301`)}
               />
             </TableBox>
           </TablesWrapper>

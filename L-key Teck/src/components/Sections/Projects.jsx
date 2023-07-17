@@ -116,22 +116,14 @@ export default function Projects() {
                 <div style={{ width: "190px" }}>
                   <FullButton
                     title="Get Started"
-                    action={() =>
-                      window.open(
-                        `https://web.whatsapp.com/send?phone=0244348301`
-                      )
-                    }
+                    action={() => window.open(` https://wa.me/0244348301`)}
                   />
                 </div>
                 <div style={{ width: "190px", marginLeft: "15px" }}>
                   <FullButton
                     title="Contact Us"
                     border
-                    action={() =>
-                      window.open(
-                        `https://web.whatsapp.com/send?phone=0244348301`
-                      )
-                    }
+                    action={() => window.open(` https://wa.me/0244348301`)}
                   />
                 </div>
               </ButtonsRow>

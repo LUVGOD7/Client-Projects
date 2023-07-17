@@ -25,7 +25,6 @@ export default function Blog() {
                 title="L-Key Tech E-commerce"
                 text="With L-key Tech E-commerce you can view a wide range of product catalog. You can buy, "
                 tag="company"
-                action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -33,7 +32,6 @@ export default function Blog() {
                 title="E-pharmacy"
                 text="E-pharmacy software is a digital solution designed specifically for online pharmacies to streamline their operations and enhance customer experience. "
                 tag="company"
-                action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -41,7 +39,6 @@ export default function Blog() {
                 title="E-Hospital"
                 text="E-hospital consultation software is a digital platform that facilitates remote medical consultations between healthcare providers and patients. "
                 tag="company"
-                action={() => alert("clicked")}
               />
             </div>
           </div>
@@ -51,7 +48,6 @@ export default function Blog() {
                 title="Church Blog"
                 text="A church blog website serves as a digital platform for the church community to connect, engage, and share valuable information. "
                 tag="company"
-                action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -59,7 +55,6 @@ export default function Blog() {
                 title="Social Initiative"
                 text="L-Key Tech has launched a social initiative to equip society with IT skills. They offer digital skills training programs, engage with communities through workshops and partnerships"
                 tag="School"
-                action={() => alert("clicked")}
               />
             </div>
           </div>
@@ -67,9 +62,7 @@ export default function Blog() {
             <div style={{ margin: "50px 0", width: "fit-content" }}>
               <FullButton
                 title="Get to our Sub services"
-                action={() =>
-                  window.open(`https://web.whatsapp.com/send?phone=0244348301`)
-                }
+                action={() => window.open(` https://wa.me/0244348301`)}
               />
             </div>
           </div>

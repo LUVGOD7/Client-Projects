@@ -80,13 +80,13 @@ export default function Services() {
                   <div style={{ width: "190px" }}>
                     <FullButton
                       title="Get Started"
-                      action={() => alert("clicked")}
+                      action={() => window.open(` https://wa.me/0244348301`)}
                     />
                   </div>
                   <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton
                       title="Contact Us"
-                      action={() => alert("clicked")}
+                      action={() => window.open(` https://wa.me/0244348301`)}
                       border
                     />
                   </div>
