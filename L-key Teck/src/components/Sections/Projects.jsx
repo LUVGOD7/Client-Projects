@@ -32,7 +32,7 @@ export default function Projects() {
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img="https://images.pexels.com/photos/5483240/pexels-photo-5483240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                img="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 title="Cyber Security"
                 text="L-key Tech focuses on protecting systems, networks, and programs from digital attacks"
               />
@@ -98,7 +98,7 @@ export default function Projects() {
             </AddLeft>
             <AddRight>
               <h4 className="font15 semiBold">A few words about company</h4>
-              <h2 className="font40 extraBold">A Study of Creativity</h2>
+              <h2 className="font40 extraBold">L-key Tech Says!</h2>
               <p className="font12">
                 we have assembled a highly skilled and experienced team of
                 technology professionals who are dedicated to delivering
@@ -114,10 +114,25 @@ export default function Projects() {
                 style={{ margin: "30px 0" }}
               >
                 <div style={{ width: "190px" }}>
-                  <FullButton title="Get Started" />
+                  <FullButton
+                    title="Get Started"
+                    action={() =>
+                      window.open(
+                        `https://web.whatsapp.com/send?phone=0244348301`
+                      )
+                    }
+                  />
                 </div>
                 <div style={{ width: "190px", marginLeft: "15px" }}>
-                  <FullButton title="Contact Us" border />
+                  <FullButton
+                    title="Contact Us"
+                    border
+                    action={() =>
+                      window.open(
+                        `https://web.whatsapp.com/send?phone=0244348301`
+                      )
+                    }
+                  />
                 </div>
               </ButtonsRow>
             </AddRight>

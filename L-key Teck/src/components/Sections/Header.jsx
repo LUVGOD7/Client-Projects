@@ -25,13 +25,13 @@ export default function Header() {
           <h1>Contact Us</h1>
           <div className="d-flex gap-2 mx-5  ms-auto">
             <button type="btn" className="btn btn-danger w-50 rounded-4 fs-5">
-              Mail
+              <i class="fa-sharp fa-regular fa-envelope"></i> Mail
             </button>
             <button
               type="btn"
               className="btn btn-secondary rounded-4 w-50 fs-5"
             >
-              Whatsapp
+              <i class="fa-brands fa-whatsapp"></i> Whatsapp
             </button>
           </div>
         </div>

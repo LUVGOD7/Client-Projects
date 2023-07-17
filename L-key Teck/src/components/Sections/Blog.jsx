@@ -13,10 +13,10 @@ export default function Blog() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Sub Companies we own</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut
+              By leveraging the latest technologies and industry best practices,
+              we empower organizations to optimize processes, drive efficiency,
+              and succeed in the digital landscape.
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
           </HeaderInfo>
           <div className="row textCenter">
