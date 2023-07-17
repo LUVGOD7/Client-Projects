@@ -62,7 +62,11 @@ export default function Blog() {
             <div style={{ margin: "50px 0", width: "fit-content" }}>
               <FullButton
                 title="Get to our Sub services"
-                action={() => window.open(` https://wa.me/0244348301`)}
+                action={() =>
+                  window.open(
+                    ` https://wa.me/233244348301?text=Hello%20Mr%20Victor%20I'm%20interested%20in%20your%20service%20`
+                  )
+                }
               />
             </div>
           </div>

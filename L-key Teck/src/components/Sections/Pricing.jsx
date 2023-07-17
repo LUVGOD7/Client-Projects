@@ -34,7 +34,11 @@ export default function Pricing() {
                   { name: "Websites", cheked: true },
                   { name: "Blogging Sites", cheked: true },
                 ]}
-                action={() => window.open(` https://wa.me/0244348301`)}
+                action={() =>
+                  window.open(
+                    ` https://wa.me/233244348301?text=Hello%20Mr%20Victor%20I'm%20interested%20in%20your%20Software%20services%20`
+                  )
+                }
               />
             </TableBox>
             <TableBox>
@@ -50,7 +54,11 @@ export default function Pricing() {
                   { name: "Computer Repairs", cheked: true },
                   { name: "Troubleshooting", cheked: true },
                 ]}
-                action={() => window.open(` https://wa.me/0244348301`)}
+                action={() =>
+                  window.open(
+                    ` https://wa.me/233244348301?text=Hello%20Mr%20Victor%20I'm%20interested%20in%20your%20Door-to-Door%20services%20`
+                  )
+                }
               />
             </TableBox>
             <TableBox>
@@ -66,7 +74,11 @@ export default function Pricing() {
                   { name: "Hardware Upgrades", cheked: true },
                   { name: "Laptop Customization", cheked: true },
                 ]}
-                action={() => window.open(` https://wa.me/0244348301`)}
+                action={() =>
+                  window.open(
+                    ` https://wa.me/233244348301?text=Hello%20Mr%20Victor%20I'm%20interested%20in%20your%20Hardware%20services%20`
+                  )
+                }
               />
             </TableBox>
           </TablesWrapper>
