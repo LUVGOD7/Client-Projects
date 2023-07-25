@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 // Components
-import FullButton from "../Buttons/FullButton";
+
 // Assets
 import HeaderImage from "../../assets/img/header-img.png";
 import QuotesIcon from "../../assets/svg/Quotes";
@@ -24,12 +24,28 @@ export default function Header() {
 
           <h1>Contact Us</h1>
           <div className="d-flex gap-2 mx-5  ms-auto">
-            <button type="btn" className="btn btn-danger w-50 rounded-4 fs-5">
+            <button
+              role="link"
+              type="btn"
+              className="btn btn-danger w-50 rounded-4 fs-5"
+              onClick={() => {
+                window.location.href = `mailto:${"lkeytech@gmail.com"}?subject=${encodeURIComponent(
+                  "I need L-key Tech Service"
+                )}&body=${encodeURIComponent(
+                  "I would like to request for assistance on ...."
+                )}`;
+              }}
+            >
               <i class="fa-sharp fa-regular fa-envelope"></i> Mail
             </button>
             <button
               type="btn"
               className="btn btn-secondary rounded-4 w-50 fs-5"
+              onClick={() =>
+                window.open(
+                  ` https://wa.me/233244348301?text=Hello%20Mr%20Victor%20I%20am%20interested%20in%20your%20service%20`
+                )
+              }
             >
               <i class="fa-brands fa-whatsapp"></i> Whatsapp
             </button>

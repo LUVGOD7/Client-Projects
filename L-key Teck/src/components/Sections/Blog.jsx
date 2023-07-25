@@ -64,7 +64,7 @@ export default function Blog() {
                 title="Get to our Sub services"
                 action={() =>
                   window.open(
-                    ` https://wa.me/233244348301?text=Hello%20Mr%20Victor%20I'm%20interested%20in%20your%20service%20`
+                    ` https://wa.me/233244348301?text=Hello%20Mr%20Victor%20I%20am%20interested%20in%20your%20service%20`
                   )
                 }
               />

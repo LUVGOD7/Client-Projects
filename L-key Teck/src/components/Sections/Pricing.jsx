@@ -27,7 +27,7 @@ export default function Pricing() {
                 title="Software Services"
                 text="Awesome web design solution and alternatives to help you take your business to the internet"
                 offers={[
-                  { name: "Wed design", cheked: true },
+                  { name: "Web design", cheked: true },
                   { name: "Mobile app", cheked: true },
                   { name: "IOS app", cheked: true },
                   { name: "Android apps", cheked: true },
