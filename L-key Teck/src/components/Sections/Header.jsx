@@ -43,7 +43,7 @@ export default function Header() {
               className="btn btn-secondary rounded-4 w-50 fs-5"
               onClick={() =>
                 window.open(
-                  ` https://wa.me/233244348301?text=Hello%20Mr%20Victor%20I%20am%20interested%20in%20your%20service%20`
+                  ` https://wa.me/233533713174?text=Hello%20Mr%20Victor%20I%20am%20interested%20in%20your%20service%20`
                 )
               }
             >
@@ -76,7 +76,7 @@ export default function Header() {
                 className="font13 orangeColor textRight"
                 style={{ marginTop: "10px" }}
               >
-                L-key Tech CEO and Founder
+                L-key Tech Compant Ltd
               </p>
             </div>
           </QuoteWrapper>
