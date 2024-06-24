@@ -65,7 +65,7 @@ export default function Pricing() {
               <PricingTable
                 icon="browser"
                 price="Starting  ₵200"
-                title="Hardwore Services"
+                title="Hardware Services"
                 text="providing fundamental and essential hardware-related solutions to customers. Here are some basic IT hardware services L-ket Tech offers:"
                 offers={[
                   { name: "IoT Solutions ", cheked: true },
