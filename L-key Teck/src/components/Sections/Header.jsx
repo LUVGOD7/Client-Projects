@@ -76,7 +76,7 @@ export default function Header() {
                 className="font13 orangeColor textRight"
                 style={{ marginTop: "10px" }}
               >
-                L-key Tech CEO and Founder
+                L-key Tech Company Ltd
               </p>
             </div>
           </QuoteWrapper>
