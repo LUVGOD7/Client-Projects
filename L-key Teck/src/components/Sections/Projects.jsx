@@ -97,7 +97,7 @@ export default function Projects() {
               </AddLeftInner>
             </AddLeft>
             <AddRight>
-              <h4 className="font15 semiBold">A few words about company</h4>
+              <h4 className="font15 semiBold">A few words about our company</h4>
               <h2 className="font40 extraBold">L-key Tech Says!</h2>
               <p className="font12">
                 we have assembled a highly skilled and experienced team of
